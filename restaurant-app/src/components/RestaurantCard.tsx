@@ -1,4 +1,4 @@
-import { Button, Card, Col, Row, Stack } from 'react-bootstrap';
+import { Button, Card, Row, Stack } from 'react-bootstrap';
 import { Restaurant } from '../types';
 import { CardInfo } from './CardInfo';
 import { useLocation, useNavigate } from 'react-router-dom';
