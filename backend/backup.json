@@ -1,0 +1,386 @@
+{
+	"restaurants": [
+		{
+			"id": 1,
+			"name": "Sizzle Palace",
+			"cuisine": "Steakhouse",
+			"rating": 4.5,
+			"location": "Downtown",
+			"price_range": "$$$"
+		},
+		{
+			"id": 2,
+			"name": "Mystic Sushi Haven",
+			"cuisine": "Japanese",
+			"rating": 4.2,
+			"location": "Midtown",
+			"price_range": "$$"
+		},
+		{
+			"id": 3,
+			"name": "La Dolce Vita Pizzeria",
+			"cuisine": "Italian",
+			"rating": 4.0,
+			"location": "Little Italy",
+			"price_range": "$"
+		},
+		{
+			"id": 4,
+			"name": "Spice Kingdom",
+			"cuisine": "Indian",
+			"rating": 4.7,
+			"location": "Chinatown",
+			"price_range": "$$"
+		},
+		{
+			"id": 5,
+			"name": "Cafe Serenity",
+			"cuisine": "Vegetarian",
+			"rating": 4.3,
+			"location": "Uptown",
+			"price_range": "$"
+		},
+		{
+			"id": 6,
+			"name": "Mediterranean Delight",
+			"cuisine": "Mediterranean",
+			"rating": 4.6,
+			"location": "Waterfront",
+			"price_range": "$$$"
+		},
+		{
+			"id": 7,
+			"name": "Thai Orchid Garden",
+			"cuisine": "Thai",
+			"rating": 4.1,
+			"location": "City Center",
+			"price_range": "$$"
+		},
+		{
+			"id": 8,
+			"name": "Fiesta Mexicana",
+			"cuisine": "Mexican",
+			"rating": 4.4,
+			"location": "Southside",
+			"price_range": "$"
+		},
+		{
+			"id": 9,
+			"name": "Fusion Bites",
+			"cuisine": "Global Fusion",
+			"rating": 4.8,
+			"location": "West End",
+			"price_range": "$$$"
+		},
+		{
+			"id": 10,
+			"name": "Burger Bliss",
+			"cuisine": "American",
+			"rating": 4.2,
+			"location": "Suburbia",
+			"price_range": "$"
+		}
+	],
+	"menu": [
+		{
+			"id": 1,
+      "restaurantId": 1,
+			"entrance": [
+				{
+					"name": "Garlic Butter Shrimp",
+					"description": "Juicy shrimp sautéed in garlic butter",
+					"price": 12.99
+				}
+			],
+			"main_dishes": [
+				{
+					"name": "Prime Ribeye Steak",
+					"description": "Grilled prime ribeye steak cooked to perfection",
+					"price": 29.99
+				},
+				{
+					"name": "Lobster Tail Surf and Turf",
+					"description": "Lobster tail paired with a succulent steak",
+					"price": 34.99
+				}
+			],
+			"dessert": [
+				{
+					"name": "Chocolate Lava Cake",
+					"description": "Warm chocolate cake with a gooey molten center",
+					"price": 8.99
+				}
+			]
+		},
+		{
+			"id": 2,
+      "restaurantId": 2,
+			"entrance": [
+				{
+					"name": "Edamame with Truffle Salt",
+					"description": "Steamed soybeans seasoned with truffle salt",
+					"price": 8.99
+				}
+			],
+			"main_dishes": [
+				{
+					"name": "Sashimi Platter",
+					"description": "Fresh assortment of sashimi slices",
+					"price": 24.99
+				},
+				{
+					"name": "Dragon Roll",
+					"description": "Sushi roll with eel, avocado, and spicy mayo",
+					"price": 18.99
+				}
+			],
+			"dessert": [
+				{
+					"name": "Green Tea Mochi Ice Cream",
+					"description": "Matcha-flavored mochi ice cream",
+					"price": 6.99
+				}
+			]
+		},
+		{
+			"id": 3,
+      "restaurantId": 3,
+			"entrance": [
+				{
+					"name": "Caprese Salad",
+					"description": "Fresh tomatoes, mozzarella, and basil drizzled with balsamic glaze",
+					"price": 10.99
+				}
+			],
+			"main_dishes": [
+				{
+					"name": "Margherita Pizza",
+					"description": "Classic pizza with tomato, mozzarella, and basil",
+					"price": 14.99
+				},
+				{
+					"name": "Penne alla Vodka",
+					"description": "Penne pasta in a creamy vodka sauce",
+					"price": 12.99
+				}
+			],
+			"dessert": [
+				{
+					"name": "Tiramisu",
+					"description": "Classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone",
+					"price": 9.99
+				}
+			]
+		},
+		{
+			"id": 4,
+      "restaurantId": 4,
+			"entrance": [
+				{
+					"name": "Vegetable Samosas",
+					"description": "Crispy pastries filled with spiced vegetables",
+					"price": 7.99
+				}
+			],
+			"main_dishes": [
+				{
+					"name": "Chicken Tikka Masala",
+					"description": "Tender chicken in a rich, flavorful masala sauce",
+					"price": 16.99
+				},
+				{
+					"name": "Lamb Biryani",
+					"description": "Fragrant rice dish with spiced lamb and aromatic herbs",
+					"price": 19.99
+				}
+			],
+			"dessert": [
+				{
+					"name": "Gulab Jamun",
+					"description": "Sweet and syrupy Indian dessert balls",
+					"price": 8.99
+				}
+			]
+		},
+		{
+			"id": 5,
+      "restaurantId": 5,
+			"entrance": [
+				{
+					"name": "Spinach and Artichoke Dip",
+					"description": "Creamy dip with spinach, artichokes, and melted cheese",
+					"price": 8.99
+				}
+			],
+			"main_dishes": [
+				{
+					"name": "Quinoa Salad",
+					"description": "Healthy salad with quinoa, vegetables, and vinaigrette",
+					"price": 12.99
+				},
+				{
+					"name": "Eggplant Parmesan",
+					"description": "Baked eggplant with marinara and melted mozzarella",
+					"price": 14.99
+				}
+			],
+			"dessert": [
+				{
+					"name": "Vegan Chocolate Avocado Mousse",
+					"description": "Rich and creamy chocolate mousse made with avocado",
+					"price": 7.99
+				}
+			]
+		},
+		{
+			"id": 6,
+      "restaurantId": 6,
+			"entrance": [
+				{
+					"name": "Hummus with Pita",
+					"description": "Smooth chickpea dip served with warm pita bread",
+					"price": 9.99
+				}
+			],
+			"main_dishes": [
+				{
+					"name": "Grilled Octopus",
+					"description": "Tender grilled octopus with lemon and herbs",
+					"price": 22.99
+				},
+				{
+					"name": "Lamb Kebabs",
+					"description": "Skewers of seasoned and grilled lamb",
+					"price": 18.99
+				}
+			],
+			"dessert": [
+				{
+					"name": "Baklava",
+					"description": "Sweet pastry made of layers of filo dough, nuts, and honey",
+					"price": 10.99
+				}
+			]
+		},
+		{
+			"id": 7,
+      "restaurantId": 7,
+			"entrance": [
+				{
+					"name": "Tom Yum Soup",
+					"description": "Spicy and sour Thai soup with shrimp and herbs",
+					"price": 11.99
+				}
+			],
+			"main_dishes": [
+				{
+					"name": "Pad Thai",
+					"description": "Stir-fried rice noodles with shrimp, tofu, and peanuts",
+					"price": 14.99
+				},
+				{
+					"name": "Green Curry Chicken",
+					"description": "Chicken cooked in a flavorful green curry sauce",
+					"price": 16.99
+				}
+			],
+			"dessert": [
+				{
+					"name": "Mango Sticky Rice",
+					"description": "Sweet sticky rice topped with ripe mango slices",
+					"price": 8.99
+				}
+			]
+		},
+		{
+			"id": 8,
+      "restaurantId": 8,
+			"entrance": [
+				{
+					"name": "Guacamole and Chips",
+					"description": "Freshly made guacamole served with crispy tortilla chips",
+					"price": 7.99
+				}
+			],
+			"main_dishes": [
+				{
+					"name": "Tacos Al Pastor",
+					"description": "Tacos with marinated pork, pineapple, and cilantro",
+					"price": 12.99
+				},
+				{
+					"name": "Enchiladas Verdes",
+					"description": "Enchiladas filled with chicken and topped with green sauce",
+					"price": 14.99
+				}
+			],
+			"dessert": [
+				{
+					"name": "Churros with Chocolate Sauce",
+					"description": "Crispy fried dough sticks served with chocolate dipping sauce",
+					"price": 6.99
+				}
+			]
+		},
+		{
+			"id": 9,
+      "restaurantId": 9,
+			"entrance": [
+				{
+					"name": "Sushi Tacos",
+					"description": "Tacos with sushi-grade fish, avocado, and spicy mayo",
+					"price": 15.99
+				}
+			],
+			"main_dishes": [
+				{
+					"name": "Peruvian Lomo Saltado",
+					"description": "Stir-fried beef with vegetables and Peruvian spices",
+					"price": 18.99
+				},
+				{
+					"name": "Moroccan Tagine",
+					"description": "Slow-cooked tagine with lamb, apricots, and almonds",
+					"price": 22.99
+				}
+			],
+			"dessert": [
+				{
+					"name": "Matcha Cheesecake",
+					"description": "Cheesecake flavored with Japanese matcha green tea",
+					"price": 9.99
+				}
+			]
+		},
+		{
+			"id": 10,
+      "restaurantId": 10,
+			"entrance": [
+				{
+					"name": "Loaded Potato Skins",
+					"description": "Crispy potato skins loaded with cheese, bacon, and sour cream",
+					"price": 10.99
+				}
+			],
+			"main_dishes": [
+				{
+					"name": "Classic Cheeseburger",
+					"description": "Juicy beef patty with cheese, lettuce, and tomato",
+					"price": 12.99
+				},
+				{
+					"name": "BBQ Bacon Burger",
+					"description": "Burger topped with barbecue sauce, bacon, and cheddar",
+					"price": 14.99
+				}
+			],
+			"dessert": [
+				{
+					"name": "Apple Pie A La Mode",
+					"description": "Warm apple pie served with a scoop of vanilla ice cream",
+					"price": 8.99
+				}
+			]
+		}
+	]
+}
